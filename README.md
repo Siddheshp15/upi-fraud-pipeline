@@ -23,12 +23,6 @@ This project solves two things:
 |---|---|
 | ![Patterns](docs/patterns.png) | ![Data quality](docs/data-quality.png) |
 
-### Live mode
-
-A scheduler generates, cleans and scores a new batch every minute, and the dashboard refreshes itself.
-
-![Live mode](docs/live-mode.png)
-
 ## How it works
 
 ```mermaid
@@ -307,6 +301,4 @@ The sidebar filters by date, minimum risk, minimum amount and rule, and the page
 - Incremental scoring for new transactions only
 - Docker Compose for one-command setup, and cloud deployment with CI
 
-## Author
 
-Siddhesh ([@Siddheshp15](https://github.com/Siddheshp15))
