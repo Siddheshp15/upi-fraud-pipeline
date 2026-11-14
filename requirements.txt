@@ -1,0 +1,12 @@
+pandas
+numpy
+faker
+sqlalchemy
+psycopg2-binary
+python-dotenv
+scikit-learn
+streamlit
+plotly
+apscheduler
+pytest
+streamlit-autorefresh

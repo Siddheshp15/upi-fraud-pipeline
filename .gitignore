@@ -1,0 +1,22 @@
+# secrets and local config
+.env
+
+# python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# generated data (recreated by the generator)
+data/incoming/
+data/processed/
+data/users.csv
+data/ground_truth.csv
+
+# generated reports (the two .md files are kept)
+reports/*.csv
+
+# logs and editor files
+logs/
+.vscode/
+.ipynb_checkpoints/
